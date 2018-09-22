@@ -1,6 +1,77 @@
 
+/*Fontes*/
+
+@font-face{
+	font-family: "Wizards Magic";
+	src: url("../fonts/Wizards_Magic.ttf");
+}
+
+@font-face{
+	font-family: "Stanley Demo";
+	src: url("../fonts/Stanley_DEMO.ttf");
+}
+
+@font-face{
+	font-family: "AmaticSC-Regular";
+	src: url("../fonts/AmaticSC-Regular.ttf");
+}
+
+@font-face{
+	font-family: "Amatic-Bold";
+	src: url("../fonts/Amatic-Bold.ttf");
+}
+
+@font-face{
+	font-family: "Tempus-Sans";
+	src: url("../fonts/tempus-sans-itc-1.otf");
+}
+
 body{
-	background: #080a17;
+	background: url("../photos/hog3.png") fixed no-repeat;
+	background-size: 1400px auto;
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1920px){
+	body{
+		background-size: 1920px;
+	}
+}
+
+@media screen and (min-width: 1921px ) and (max-width: 2400px){
+	body{
+		background-size: 2400px;
+	}
+}
+@media screen and (min-width: 2401px ) and (max-width: 3400px){
+	body{
+		background-size: 3400px;
+	}
+}
+
+.principal{
+	margin: 12px auto;
+}
+
+h1,h2,h3,h4,h5{
+	color: #fff;
+}
+
+h1{
+	font-family: Wizards Magic;
+}
+h2{
+	font-family: Stanley Demo;
+}
+.h21{
+	font-family: AmaticSC-Regular; 
+	font-size: 80px;
+}
+.h22{
+	font-family: Amatic-Bold;
+	font-size: 80px;
+}
+.h23{
+	font-family: Tempus-Sans;
 }
 
 
