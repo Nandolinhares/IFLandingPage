@@ -1,0 +1,34 @@
+
+body{
+	background: #080a17;
+}
+
+
+/* Formulário */
+
+#mc_embed_signup{
+	background: #080a17 !important;
+	color: #fff;
+	border: 1px solid;
+}
+
+#mc_embed_signup .mc-field-group.input-group ul{
+	margin-top: 18px !important;
+}
+#mc_embed_signup .mc-field-group.input-group ul li{
+	padding: 5px 12px !important;	
+}
+#mc_embed_signup .mc-field-group.input-group input{
+	margin-right: 10px;
+}
+#mc_embed_signup .mc-field-group.input-group ul{
+	display: flex;
+}
+
+.botao_form{
+	margin: 0 auto;
+	display: table;
+}
+.botao_form_css{
+	background: #14c7bb !important;
+}
