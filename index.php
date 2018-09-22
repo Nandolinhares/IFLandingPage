@@ -45,22 +45,52 @@
 </head>
 <body>
 
-	
+	<!-- Container Principal -->
 
-	<div class="row container principal">
+	<div class="row principal">
+
+		<!-- Logo e Resumo do E-Book -->
 
 		<section class="col-xs-12 col-md-8">
 
-			<img style="width: 50%;" src="photos/logoInvasaob.png">
+			<img class="logo" src="photos/logoInvasaob.png">
 
-			<h1>INVASÃO FANTASTICA</h1>
-			<h2>Invasão Fantástica</h2>
-			<h2 class="h21">Invasão Fantástica</h2>
-			<h2 class="h22">Invasão Fantástica</h2>
-			<h2 class="h23">Invasão Fantástica</h2>
-			<h2 class="h23">Invasão Fantástica</h2>
+				
+				<div class="row">
+					<div class="col-md-2">
+						<span class="icon">
+							<i>1</i>
+						</span>
+					</div>
+					<div class="col-md-10">
+						<h3 class="h21">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras semper dui ut mauris egestas, ut placerat.
+						</h3>
+					</div>
+				</div>
 
-			<img style="width: 50%;" src="photos/logoInvasaoa.png">
+				<div class="row">
+					<div class="col-md-2">
+						<span class="icon">
+							<i>2</i>
+						</span>
+					</div>
+					<div class="col-md-10">
+						<h3 class="h21">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras semper dui ut mauris egestas, ut placerat.
+						</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2">
+						<span class="icon">
+							<i>3</i>
+						</span>
+					</div>
+					<div class="col-md-10">
+						<h3 class="h21">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras semper dui ut mauris egestas, ut placerat.
+						</h3>
+					</div>
+				</div>
+			
 
 		</section>
 

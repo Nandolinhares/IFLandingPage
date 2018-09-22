@@ -64,8 +64,8 @@ h2{
 	font-family: Stanley Demo;
 }
 .h21{
-	font-family: AmaticSC-Regular; 
-	font-size: 80px;
+	font-family: Tempus-Sans; 
+	font-size: 34px;
 }
 .h22{
 	font-family: Amatic-Bold;
@@ -75,6 +75,14 @@ h2{
 	font-family: Tempus-Sans;
 }
 
+
+/*Logo*/
+
+.logo{
+	width: 50%;
+	margin: 0 auto;
+	display: table;
+}
 
 /* Formulário */
 
@@ -113,4 +121,39 @@ h2{
 .botao_form_css{
 	background: #348a4b !important;
 	font-weight: bold !important;
+	font-size: 17px !important;
+	font-family: Stanley Demo;
+	padding: 12px 22px !important;
+	padding-right: 40px !important;
+	padding-left: 40px !important;
+	border-radius: 18px !important;
+	height: 52px !important;
+}
+
+h2.numbers{
+	width: 20px;		
+	border: 1px solid;
+	border-radius: 8px;
+}
+
+.icon{
+	width: 80px;
+	height: 80px;
+	border: 1px solid rgba(255, 255, 255, 0.8);
+	background: rgba(52, 138, 75,0.4);
+	border-radius: 50%;
+	display: table;
+	text-align: center;
+}
+
+.icon i{
+	color: #fff;
+	font-size: 40px;
+	font-style: normal;
+	vertical-align: middle; /*Combinação com table cell, certicaliza e centraliza*/
+	display: table-cell;
+}
+
+span{
+	color: #fff;
 }
