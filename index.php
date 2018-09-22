@@ -54,11 +54,11 @@
 			<img style="width: 50%;" src="photos/logoInvasaob.png">
 
 			<h1>INVASÃO FANTASTICA</h1>
-			<h2>INVASÃO FANTASTICA</h2>
-			<h2 class="h21">INVASÃO FANTÁSTICA</h2>
-			<h2 class="h22">INVASÃO FANTÁSTICA</h2>
-			<h2 class="h23">INVASÃO FANTÁSTICA</h2>
-			<h2 class="h23">INVASÃO FANTÁSTICA</h2>
+			<h2>Invasão Fantástica</h2>
+			<h2 class="h21">Invasão Fantástica</h2>
+			<h2 class="h22">Invasão Fantástica</h2>
+			<h2 class="h23">Invasão Fantástica</h2>
+			<h2 class="h23">Invasão Fantástica</h2>
 
 			<img style="width: 50%;" src="photos/logoInvasaoa.png">
 

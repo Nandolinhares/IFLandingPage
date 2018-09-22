@@ -97,10 +97,20 @@ h2{
 	display: flex;
 }
 
+#mc_embed_signup .mc-field-group label{
+	font-family: Tempus-Sans;
+	font-size: 17px;
+}
+#mc_embed_signup .mc-field-group{
+	font-family: Tempus-Sans;
+	font-size: 17px;
+}
+
 .botao_form{
 	margin: 0 auto;
 	display: table;
 }
 .botao_form_css{
-	background: #14c7bb !important;
+	background: #348a4b !important;
+	font-weight: bold !important;
 }
