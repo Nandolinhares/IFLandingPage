@@ -57,35 +57,35 @@
 
 				
 				<div class="row">
-					<div class="col-md-2">
+					<div class="col-2 col-sm-2 col-md-2">
 						<span class="icon">
 							<i>1</i>
 						</span>
 					</div>
-					<div class="col-md-10">
+					<div class="col-10 col-sm-10 col-md-10">
 						<h3 class="h21">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras semper dui ut mauris egestas, ut placerat.
 						</h3>
 					</div>
 				</div>
 
 				<div class="row">
-					<div class="col-md-2">
+					<div class="col-2 col-sm-2 col-md-2">
 						<span class="icon">
 							<i>2</i>
 						</span>
 					</div>
-					<div class="col-md-10">
+					<div class="col-10 col-sm-10 col-md-10">
 						<h3 class="h21">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras semper dui ut mauris egestas, ut placerat.
 						</h3>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-2">
+					<div class="col-2 col-sm-2 col-md-2">
 						<span class="icon">
 							<i>3</i>
 						</span>
 					</div>
-					<div class="col-md-10">
+					<div class="col-10 col-sm-10 col-md-10">
 						<h3 class="h21">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras semper dui ut mauris egestas, ut placerat.
 						</h3>
 					</div>

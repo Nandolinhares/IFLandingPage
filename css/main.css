@@ -26,6 +26,8 @@
 	src: url("../fonts/tempus-sans-itc-1.otf");
 }
 
+/*Body*/
+
 body{
 	background: url("../photos/hog3.png") fixed no-repeat;
 	background-size: 1400px auto;
@@ -47,6 +49,8 @@ body{
 		background-size: 3400px;
 	}
 }
+
+/*Principal*/
 
 .principal{
 	margin: 0 auto;
@@ -73,6 +77,64 @@ h2{
 }
 .h23{
 	font-family: Tempus-Sans;
+}
+
+h2.numbers{
+	width: 20px;		
+	border: 1px solid;
+	border-radius: 8px;
+}
+
+.icon{
+	width: 80px;
+	height: 80px;
+	border: 1px solid rgba(255, 255, 255, 0.8);
+	background: rgba(52, 138, 75,0.4);
+	border-radius: 50%;
+	margin: 0 auto;
+	display: table;
+	text-align: center;
+}
+
+.icon i{
+	color: #fff;
+	font-size: 40px;
+	font-style: normal;
+	vertical-align: middle; /*Combinação com table cell, certicaliza e centraliza*/
+	display: table-cell;
+}
+
+span{
+	color: #fff;
+}
+
+@media screen and (min-width: 350px) and (max-width: 640px){
+
+	/*body{
+		background-position: top right;
+	}*/
+
+	body{
+		background: url("../photos/hog2.jpg") fixed no-repeat;
+		background-position: top;
+	}
+	.logo{
+		width: 70% !important;
+	}
+
+	.icon{
+		width: 48px;
+		height: 48px;
+		background: rgba(36, 26, 27,0.6);
+	}
+
+	.icon i{
+		font-size: 28px;
+	}
+
+	.h21{
+		font-size: 22px;
+	}
 }
 
 
@@ -130,30 +192,4 @@ h2{
 	height: 52px !important;
 }
 
-h2.numbers{
-	width: 20px;		
-	border: 1px solid;
-	border-radius: 8px;
-}
 
-.icon{
-	width: 80px;
-	height: 80px;
-	border: 1px solid rgba(255, 255, 255, 0.8);
-	background: rgba(52, 138, 75,0.4);
-	border-radius: 50%;
-	display: table;
-	text-align: center;
-}
-
-.icon i{
-	color: #fff;
-	font-size: 40px;
-	font-style: normal;
-	vertical-align: middle; /*Combinação com table cell, certicaliza e centraliza*/
-	display: table-cell;
-}
-
-span{
-	color: #fff;
-}
