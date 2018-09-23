@@ -181,6 +181,23 @@
 		</section>
 	</div>
 
+	<section class="container">
+		
+		<div class="row">
+			<div class="col-12 col-sm-12 col-md-4">
+				<h2 class="h23 organizador">Organizador</h2>
+				<img class="logo_conectat" src="photos/conectat2.png">
+			</div>
+			<div class="col-12 col-sm-12 col-md-4">
+				<h2 class="h23 organizador">Patrocinadores</h2>
+				<img class="logo_bou" src="photos/bou2.png">
+				<img class="logo_chilli" src="photos/chilli2.png">
+			</div>
+		</div>
+
+		
+	</section>
+
 <!-- Jquery -->
 		<script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
 		<script type="text/javascript" src="./js/jquery.waypoints.min.js"></script>
