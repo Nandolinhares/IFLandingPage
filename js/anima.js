@@ -2,55 +2,50 @@ $(document).ready(function(){
 	
 var bounceInLeft = "animated bounceInLeft";
 var fadeIn = "animated fadeIn";
-var zoomIn = "animated zoomIn";
-var rubberBand = "animated rubberBand";
+var fadeInDown = "animated fadeInDown";
+var fadeInRightBig = "animated fadeInRightBig"
 
-	/*Home*/
-		/*Slide*/
-	$h2 = $('.h2');
-	$h2.waypoint(function(){
-		$h2.addClass(bounceInLeft);
-		$h2.addClass('js-animate');
-	}, {offset:'80%'});
+	
+	$logo = $('.logo');
+	$logo.waypoint(function(){
+		$logo.addClass(bounceInLeft);
+		$logo.addClass('js-animate');
+	}, {offset:'90%'});
 
-	$p = $('.p');
-	$p.waypoint(function(){
-		$p.addClass(fadeIn);
-		$p.addClass('js-animate');
-	}, {offset:'80%'});
+	$h21 = $('.h21');
+	$h21.waypoint(function(){
+		$h21.addClass(fadeInRightBig);
+		$h21.addClass('js-animate');
+	}, {offset:'90%'});
 
-		/*Veja como é simples contratar*/
 
-	$h2_home = $('.h2-video');
-	$h2_home.waypoint(function(){
-		$h2_home.addClass(bounceInLeft);
-		$h2_home.addClass('js-animate');
-	}, {offset: '80%'});
+	$icon = $('.icon');
+	$icon.waypoint(function(){
+		$icon.addClass(fadeIn);
+		$icon.addClass('js-animate');
+	}, {offset: '90%'});
 
-	$p_exp = $('#p-exp');
-	$p_exp.waypoint(function(){
-		$p_exp.addClass(fadeIn);
-		$p_exp.addClass('js-animate');
-	}, {offset: '80%'});
+	$logo_bou = $('.logo_bou');
+	$logo_bou.waypoint(function(){
+		$logo_bou.addClass(fadeIn);
+		$logo_bou.addClass('js-animate');
+	}, {offset: '90%'});
 
-		/*Ícones*/
+	$logo_chilli = $('.logo_chilli');
+	$logo_chilli.waypoint(function(){
+		$logo_chilli.addClass(fadeIn);
+		$logo_chilli.addClass('js-animate');
+	}, {offset: '90%'});
 
-	$section_icons = $('.section-icons');
-	$section_icons.waypoint(function(){
-		$section_icons.addClass(fadeIn);
-		$section_icons.addClass('js-animate');
-	}, {offset: '80%'});
+	$mc_embed_signup = $('#mc_embed_signup');
+	$mc_embed_signup.waypoint(function(){
+		$mc_embed_signup.addClass(fadeInDown);
+		$mc_embed_signup.addClass('js-animate');
+	}, {offset: '90%'});
 
-		/*Clientes*/
-	$h2_clientes = $('.h2-clientes');
-	$h2_clientes.waypoint(function(){
-		$h2_clientes.addClass(zoomIn);
-		$h2_clientes.addClass('js-animate');
-	}, {offset: '80%'});
-
-	$fotos_clientes = $('.fotos-clientes');
-	$fotos_clientes.waypoint(function(){
-		$fotos_clientes.addClass(rubberBand);
-		$fotos_clientes.addClass('js-animate');
-	}, {offset: '80%'});	
+	$organizador = $('.organizador');
+	$organizador.waypoint(function(){
+		$organizador.addClass(bounceInLeft);
+		$organizador.addClass('js-animate');
+	}, {offset:'90%'});
 });

@@ -26,11 +26,17 @@
 	src: url("../fonts/tempus-sans-itc-1.otf");
 }
 
+/*Animate*/
+.js-animate{
+	opacity: 1 !important;
+}
+
 /*Body*/
 
 body{
 	background: url("../photos/hog3.png") fixed no-repeat;
 	background-size: 1400px auto;
+	overflow-x: hidden;
 }
 
 @media screen and (min-width: 1400px) and (max-width: 1920px){
@@ -77,6 +83,7 @@ h2{
 }
 .h23{
 	font-family: Tempus-Sans;
+	opacity: 0;
 }
 .h24{
 	font-family: Wizards Magic;
@@ -97,6 +104,7 @@ h2.numbers{
 	margin: 0 auto;
 	display: table;
 	text-align: center;
+	opacity: 0;
 }
 
 .icon i{
@@ -113,13 +121,16 @@ span{
 
 .logo_conectat{
 	width: 40%;
+	opacity: 0;
 }
 .logo_bou{
 	width: 50%;
 	padding-right: 8px;
+	opacity: 0;
 }
 .logo_chilli{
 	width: 40%;
+	opacity: 0;
 }
 
 

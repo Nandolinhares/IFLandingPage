@@ -186,7 +186,7 @@
 		<div class="row">
 			<div class="col-12 col-sm-12 col-md-4">
 				<h2 class="h23 organizador">Organizador</h2>
-				<img class="logo_conectat" src="photos/conectat2.png">
+				<img class="logo_conectat organizador" src="photos/conectat2.png">
 			</div>
 			<div class="col-12 col-sm-12 col-md-4">
 				<h2 class="h23 organizador">Patrocinadores</h2>
