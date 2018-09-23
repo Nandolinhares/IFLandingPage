@@ -1,168 +1,53 @@
-
 /*Fontes*/
 
-@font-face{
-	font-family: "Wizards Magic";
-	src: url("../fonts/Wizards_Magic.ttf");
-}
-
-@font-face{
-	font-family: "Stanley Demo";
-	src: url("../fonts/Stanley_DEMO.ttf");
-}
-
-@font-face{
-	font-family: "AmaticSC-Regular";
-	src: url("../fonts/AmaticSC-Regular.ttf");
-}
-
-@font-face{
-	font-family: "Amatic-Bold";
-	src: url("../fonts/Amatic-Bold.ttf");
-}
-
-@font-face{
-	font-family: "Tempus-Sans";
-	src: url("../fonts/tempus-sans-itc-1.otf");
-}
-
+@font-face{font-family: "Wizards Magic";src: url("../fonts/Wizards_Magic.ttf");}
+@font-face{font-family: "Stanley Demo";src: url("../fonts/Stanley_DEMO.ttf");}
+@font-face{font-family: "AmaticSC-Regular";src: url("../fonts/AmaticSC-Regular.ttf");}
+@font-face{font-family: "Amatic-Bold";src: url("../fonts/Amatic-Bold.ttf");}
+@font-face{font-family: "Tempus-Sans";src: url("../fonts/tempus-sans-itc-1.otf");}
 /*Animate*/
-.js-animate{
-	opacity: 1 !important;
-}
-
+.js-animate{opacity: 1 !important;}
 /*Body*/
-
-body{
-	background: url("../photos/hog3.png") fixed no-repeat;
-	background-size: 1400px auto;
-	overflow-x: hidden;
-}
-
-@media screen and (min-width: 1400px) and (max-width: 1920px){
-	body{
-		background-size: 1920px;
-	}
-}
-
-@media screen and (min-width: 1921px ) and (max-width: 2400px){
-	body{
-		background-size: 2400px;
-	}
-}
-@media screen and (min-width: 2401px ) and (max-width: 3400px){
-	body{
-		background-size: 3400px;
-	}
-}
-
+body{background: url("../photos/hog3.png") fixed no-repeat;background-size: 1400px auto;overflow-x: hidden;}
+@media screen and (min-width: 1400px) and (max-width: 1920px){body{background-size: 1920px;}}
+@media screen and (min-width: 1921px ) and (max-width: 2400px){body{background-size: 2400px;}}
+@media screen and (min-width: 2401px ) and (max-width: 3400px){body{background-size: 3400px;}}
 /*Principal*/
-
-.principal{
-	margin: 0 auto;
-	margin-top: 28px;
-}
-
-h1,h2,h3,h4,h5{
-	color: #fff;
-}
-
-h1{
-	font-family: Wizards Magic;
-}
-h2{
-	font-family: Stanley Demo;
-}
-.h21{
-	font-family: Tempus-Sans; 
-	font-size: 34px;
-}
-.h22{
-	font-family: Amatic-Bold;
-	font-size: 80px;
-}
-.h23{
-	font-family: Tempus-Sans;
-	opacity: 0;
-}
-.h24{
-	font-family: Wizards Magic;
-}
-
-h2.numbers{
-	width: 20px;		
-	border: 1px solid;
-	border-radius: 8px;
-}
-
-.icon{
-	width: 80px;
-	height: 80px;
-	border: 1px solid rgba(255, 255, 255, 0.8);
-	background: rgba(52, 138, 75,0.4);
-	border-radius: 50%;
-	margin: 0 auto;
-	display: table;
-	text-align: center;
-	opacity: 0;
-}
-
-.icon i{
-	color: #fff;
-	font-size: 40px;
-	font-style: normal;
-	vertical-align: middle; /*Combinação com table cell, certicaliza e centraliza*/
-	display: table-cell;
-}
-
-span{
-	color: #fff;
-}
-
-.logo_conectat{
-	width: 40%;
-	opacity: 0;
-}
-.logo_bou{
-	width: 50%;
-	padding-right: 8px;
-	opacity: 0;
-}
-.logo_chilli{
-	width: 40%;
-	opacity: 0;
-}
-
-
+.principal{margin: 0 auto;margin-top: 28px;}
+h1,h2,h3,h4,h5{color: #fff;}
+h1{font-family: Wizards Magic;}
+h2{font-family: Stanley Demo;}
+.h21{font-family: Tempus-Sans; font-size: 34px;}
+.h22{font-family: Amatic-Bold;font-size: 80px;}
+.h23{font-family: Tempus-Sans;	}
+.h24{font-family: Wizards Magic;}
+h2.numbers{width: 20px;border: 1px solid;border-radius: 8px;}
+.icon{width: 80px;height: 80px;border: 1px solid rgba(255, 255, 255, 0.8);background: rgba(52, 138, 75,0.4);border-radius: 50%;margin: 0 auto;display: table;text-align: center;}
+.icon i{color: #fff;font-size: 40px;font-style: normal;vertical-align: middle; /*Combinação com table cell, certicaliza e centraliza*/display: table-cell;}
+span{color: #fff;}
+.logo_conectat{width: 40%;}
+.logo_bou{width: 50%;padding-right: 8px;}
+.logo_chilli{width: 40%;}
 
 @media screen and (min-width: 350px) and (max-width: 640px){
-
-	/*body{
-		background-position: top right;
-	}*/
-
 	body{
-		background: url("../photos/hog2.jpg") fixed no-repeat;
-		background-position: top;
+		background: url("../photos/hog2.jpg") fixed no-repeat !important;
+		background-position: top !important;
 	}
 	.logo{
 		width: 70% !important;
 	}
-
 	.icon{
 		width: 48px;
 		height: 48px;
 		background: rgba(36, 26, 27,0.6);
 	}
-
 	.icon i{
 		font-size: 28px;
 	}
-
 	.h21{
 		font-size: 22px;
 	}
-
 	.logo_conectat{
 		width: 40%;
 	}
@@ -171,60 +56,17 @@ span{
 		display: table;
 	}
 }
-
-
 /*Logo*/
-
-.logo{
-	width: 50%;
-	margin: 0 auto;
-	display: table;
-}
-
+.logo{width: 50%;margin: 0 auto;display: table;}
 /* Formulário */
-
-#mc_embed_signup{
-	background: rgba(8, 10, 23,0.6) !important;
-	color: #fff;
-	border: 1px solid;
-}
-
-#mc_embed_signup .mc-field-group.input-group ul{
-	margin-top: 18px !important;
-}
-#mc_embed_signup .mc-field-group.input-group ul li{
-	padding: 5px 12px !important;	
-}
-#mc_embed_signup .mc-field-group.input-group input{
-	margin-right: 10px;
-}
-#mc_embed_signup .mc-field-group.input-group ul{
-	display: flex;
-}
-
-#mc_embed_signup .mc-field-group label{
-	font-family: Tempus-Sans;
-	font-size: 17px;
-}
-#mc_embed_signup .mc-field-group{
-	font-family: Tempus-Sans;
-	font-size: 17px;
-}
-
-.botao_form{
-	margin: 0 auto;
-	display: table;
-}
-.botao_form_css{
-	background: #348a4b !important;
-	font-weight: bold !important;
-	font-size: 17px !important;
-	font-family: Stanley Demo;
-	padding: 12px 22px !important;
-	padding-right: 40px !important;
-	padding-left: 40px !important;
-	border-radius: 18px !important;
-	height: 52px !important;
-}
+#mc_embed_signup{background: rgba(8, 10, 23,0.6) !important;color: #fff;border: 1px solid;}
+#mc_embed_signup .mc-field-group.input-group ul{margin-top: 18px !important;}
+#mc_embed_signup .mc-field-group.input-group ul li{padding: 5px 12px !important;	}
+#mc_embed_signup .mc-field-group.input-group input{margin-right: 10px;}
+#mc_embed_signup .mc-field-group.input-group ul{display: flex;}
+#mc_embed_signup .mc-field-group label{font-family: Tempus-Sans;font-size: 17px;}
+#mc_embed_signup .mc-field-group{font-family: Tempus-Sans;font-size: 17px;}
+.botao_form{margin: 0 auto;display: table;}
+.botao_form_css{background: #348a4b !important;font-weight: bold !important;font-size: 17px !important;font-family: Stanley Demo;padding: 12px 22px !important;padding-right: 40px !important;padding-left: 40px !important;border-radius: 18px !important;height: 52px !important;}
 
 
