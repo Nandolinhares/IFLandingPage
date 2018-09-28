@@ -7,8 +7,9 @@
 @font-face{font-family: "Tempus-Sans";src: url("../fonts/tempus-sans-itc-1.otf");}
 /*Animate*/
 .js-animate{opacity: 1 !important;}
+html{overflow-x: hidden !important;}
 /*Body*/
-body{background: url("../photos/hog3.png") fixed no-repeat;background-size: 1400px auto;overflow-x: hidden;}
+body{background: url("../photos/hog3.png") fixed no-repeat;background-size: 1400px auto; overflow-x: hidden !important;}
 @media screen and (min-width: 1400px) and (max-width: 1920px){body{background-size: 1920px;}}
 @media screen and (min-width: 1921px ) and (max-width: 2400px){body{background-size: 2400px;}}
 @media screen and (min-width: 2401px ) and (max-width: 3400px){body{background-size: 3400px;}}
@@ -31,8 +32,10 @@ span{color: #fff;}
 
 @media screen and (min-width: 350px) and (max-width: 640px){
 	body{
-		background: url("../photos/hog2.jpg") fixed no-repeat !important;
-		background-position: top !important;
+		background: url("../photos/hog2.jpg") top !important ;
+		background-attachment: fixed !important;
+		background-repeat: no-repeat !important;
+		overflow-x: hidden !important;
 	}
 	.logo{
 		width: 70% !important;
@@ -61,7 +64,7 @@ span{color: #fff;}
 /* Formulário */
 #mc_embed_signup{background: rgba(8, 10, 23,0.6) !important;color: #fff;border: 1px solid;}
 #mc_embed_signup .mc-field-group.input-group ul{margin-top: 18px !important;}
-#mc_embed_signup .mc-field-group.input-group ul li{padding: 5px 12px !important;	}
+#mc_embed_signup .mc-field-group.input-group ul li{padding: 5px 12px !important;}
 #mc_embed_signup .mc-field-group.input-group input{margin-right: 10px;}
 #mc_embed_signup .mc-field-group.input-group ul{display: flex;}
 #mc_embed_signup .mc-field-group label{font-family: Tempus-Sans;font-size: 17px;}
